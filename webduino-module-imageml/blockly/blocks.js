@@ -2,6 +2,7 @@
 
 Blockly.Blocks['imageml2_classifier'] = {
   init: function () {
+    console.log('blockly test...');
     this.appendDummyInput()
       .appendField(Blockly.Msg.WEBDUINO_IMAGEML_CAMERA_SRC)
       .appendField(new Blockly.FieldTextInput(Blockly.Msg.WEBDUINO_IMAGEML_CAMERA_LOCAL), "camSource")
