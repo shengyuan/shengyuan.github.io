@@ -68,3 +68,19 @@ Blockly.Blocks['face_get_canvas'] = {
     this.setHelpUrl('https://webduino.io/');
   }
 };
+
+
+Blockly.Blocks['face_test'] = {
+  init: function() {
+    this.appendDummyInput()
+      .appendField('(test) 設定')
+      .appendField(new Blockly.FieldVariable('camera'), 'camera')
+      .appendField('並啟動，影像來源：')
+      .appendField(new Blockly.FieldTextInput('0'), 'src');
+    this.setPreviousStatement(true, null);
+    this.setNextStatement(true, null);
+    this.setColour(330);
+    this.setTooltip('');
+    this.setHelpUrl('https://webduino.io/');
+  }
+};

@@ -3,6 +3,8 @@
   </block>
   <block type="face_get_camera">
   </block>
+  <block type="face_test">
+  </block>
   <block type="face_get_canvas"></block>
   <block type="variables_set">
     <field name="VAR">face</field>
